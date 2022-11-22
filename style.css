@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #129799;
+    height: 57vh;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    width: 30vw;
+    list-style: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 40vh;
+}
+h2{
+    position: relative;
+    top: 1vh;
+    font-size: 55px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+.secondHeaderNav ul{
+    width: 60vw;
+}
+main{
+    background-color: #FFA185;
+    height: 125vh;
+}
+div{
+    display: flex;
+    /* border: solid purple; */
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 78vw;
+    height:24vh ;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    /* border: solid; */
+    width: 96%;
+}
+div p{
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    /* border: solid; */
+    width: 96%;
+}
+.mainSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+.mainImages{
+    width: 40vw;
+    height: 40vh;
+}
+.secondPMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    height: 8vh;
+    /* border: solid; */
+}
+footer{
+    display: flex;
+    background-color: #129799;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.secondFooterDiv{
+justify-content:space-around;
+align-items: center;
+flex-direction: row;
+height: 12vh;
+width: 30vw;
+}
+.secondFooterDiv img{
+    width: 3vw;
+    height: 4vh;
+}
+.thirdNavFooter{
+    width: 45vw;
+}
